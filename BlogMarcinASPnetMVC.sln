@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogMarcinASPnetMVC", "BlogMarcinASPnetMVC\BlogMarcinASPnetMVC.csproj", "{2B1099FA-506B-443B-94CB-6C7BCB259254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{71CD7E41-B8CB-4392-912E-C22E1CBB3D66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2B1099FA-506B-443B-94CB-6C7BCB259254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B1099FA-506B-443B-94CB-6C7BCB259254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B1099FA-506B-443B-94CB-6C7BCB259254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CD7E41-B8CB-4392-912E-C22E1CBB3D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CD7E41-B8CB-4392-912E-C22E1CBB3D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CD7E41-B8CB-4392-912E-C22E1CBB3D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CD7E41-B8CB-4392-912E-C22E1CBB3D66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
