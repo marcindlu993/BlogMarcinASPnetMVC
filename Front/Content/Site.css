@@ -1,0 +1,94 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #000000;
+    color: #797979;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.form-control {
+    background-color: #b4b4b4;
+    border-color: #1d1d1d;
+    color: black;
+    border-color: #1d1d1d;
+}
+
+.btn {
+    background-color: #808080;
+    color: #000000;
+}
+
+.navbar {
+    opacity: 0.9; 
+    height:0px;
+}
+
+.section {
+    min-height:1000px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.inSection {
+    margin-left: auto;
+    margin-right: auto;
+    background-attachment: fixed;
+    padding: 10px;
+
+}
+
+.infoSection {
+    margin: 100px 200px 100px 200px;
+    background-color: #000000;
+    opacity: 0.85;
+    text-align: center;
+}
+
+.infoSection .imgSection {
+    padding: 10px;
+    float: left;
+    width: 33%;
+}
+.infoSection .imgSection img {
+    width: 100px;
+    height: 100px;
+    border: solid 1px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.subSection {
+    background-color: #000000;
+    text-align: center;
+}
+
+.section1 {
+    background-image: url('img/backgrounds/computer.jpg');
+}
+.section2 {
+    background-image: url('img/backgrounds/cold-snow-winter-mountain.jpeg');
+}
+.section3 {
+    background-image: url('img/backgrounds/bieszczady.jpg');
+}
